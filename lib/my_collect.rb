@@ -11,12 +11,10 @@ end
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 my_collect(array) do |student|
   student.split(" ").first
-  array
-end
+  end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(collection) do |lang|
   lang.upcase
-  collection
-end
+  end
  
